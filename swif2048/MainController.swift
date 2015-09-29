@@ -72,9 +72,9 @@ class MainController: UIViewController {
         let (row,col) = pos
         let x = 30 + CGFloat(col)*(width + padding)
         let y = 150 + CGFloat(row)*(width + padding)
-        let tile = TileView(pos:CGPointMake(x,y),width:width,value:value)
-        self.view.addSubview(tile)
-        self.view.bringSubviewToFront(tile)
+//        let tile = TileView(pos:CGPointMake(x,y),width:width,value:value)
+//        self.view.addSubview(tile)
+//        self.view.bringSubviewToFront(tile)
         
     }
 }
